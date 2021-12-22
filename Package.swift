@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-      .package(url: "https://github.com/devuzan/MorePowerfulSwift.git", .branch("main"))
+      .package(url: "https://github.com/devuzan/MorePowerfulSwift.git", .revisionItem("38f3cad1d808ad634480de0dab2c9f9f4c298dad"))
 
     ],
     targets: [
