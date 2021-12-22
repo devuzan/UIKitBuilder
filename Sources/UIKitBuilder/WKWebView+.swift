@@ -8,9 +8,9 @@
 import WebKit
 
 public extension WKWebView {
-    
-    convenience init(config: WKWebViewConfiguration) {
-        self.init(frame: .zero, configuration: config)
-    }
-    
+  
+  convenience init(config: WKWebViewConfiguration) {
+    self.init(frame: .zero, configuration: config)
+  }
+  
 }

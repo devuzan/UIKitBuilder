@@ -8,15 +8,15 @@
 import UIKit
 
 public extension UIVisualEffectView {
-    
-    @discardableResult func blurEffect(_ effect: UIBlurEffect) -> UIVisualEffectView {
-        self.effect = effect
-        return self
-    }
-    
-    @discardableResult func frame(_ frame: CGRect) -> UIVisualEffectView {
-        self.frame = frame
-        return self
-    }
-    
+  
+  @discardableResult func blurEffect(_ effect: UIBlurEffect) -> UIVisualEffectView {
+    self.effect = effect
+    return self
+  }
+  
+  @discardableResult func frame(_ frame: CGRect) -> UIVisualEffectView {
+    self.frame = frame
+    return self
+  }
+  
 }

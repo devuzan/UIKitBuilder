@@ -1,6 +1,8 @@
 import XCTest
 
-import UIKitBuilderTests
+#if !os(macOS)
+import UIKit
+#endifBuilderTests
 
 var tests = [XCTestCaseEntry]()
 tests += UIKitBuilderTests.allTests()
