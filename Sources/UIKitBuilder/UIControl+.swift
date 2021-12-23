@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MorePowerfulSwift
 
 public extension UIControl {
   

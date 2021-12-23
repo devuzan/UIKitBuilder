@@ -15,7 +15,6 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-      .package(url: "https://github.com/devuzan/MorePowerfulSwift.git", .revisionItem("38f3cad1d808ad634480de0dab2c9f9f4c298dad"))
 
     ],
     targets: [
@@ -23,7 +22,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "UIKitBuilder",
-            dependencies: ["MorePowerfulSwift"]),
+            dependencies: []),
         .testTarget(
             name: "UIKitBuilderTests",
             dependencies: ["UIKitBuilder"]),
