@@ -9,6 +9,12 @@ import UIKit
 
 public extension UIButton {
   
+  @discardableResult func text(_ text: String, textColor: UIColor, state: UIControl.State = .normal) -> Self {
+    self.textColor(textColor)
+    self.setTitle(text, for: state)
+    return self
+  }
+  
   @discardableResult func attributedText(_ text: NSAttributedString) -> Self {
     setAttributedTitle(text, for: .normal)
     return self
