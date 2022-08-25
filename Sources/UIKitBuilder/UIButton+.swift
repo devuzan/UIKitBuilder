@@ -126,4 +126,15 @@ public extension UIButton {
     setImage(image?.withRenderingMode(renderingMode), for: .normal)
     return self
   }
+
+  @discardableResult func contentVerticalAlignment(_ alignment: UIControl.ContentVerticalAlignment) -> Self {
+    contentVerticalAlignment = alignment
+    return self
+  }
+
+  @discardableResult func contentHorizontalAlignment(_ alignment: UIControl.ContentHorizontalAlignment) -> Self {
+    contentHorizontalAlignment = alignment
+    return self
+  }
+  
 }
