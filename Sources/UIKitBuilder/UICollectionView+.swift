@@ -67,10 +67,9 @@ public extension UICollectionView {
     register(view, forSupplementaryViewOfKind: kind, withReuseIdentifier: view.identifier)
     return self
   }
-  
-  @discardableResult func pagingEnabled(_ isPagingEnabled: Bool) -> Self {
-    self.isPagingEnabled = isPagingEnabled
-    return self
+    
+  @discardableResult override func pagingEnabled(_ isPagingEnabled: Bool) -> Self {
+    self.isPagingEnabled(isPagingEnabled)
   }
   
   @discardableResult override func isHidden(_ isHidden: Bool) -> Self {
