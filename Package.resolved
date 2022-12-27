@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MorePowerfulSwift",
+        "repositoryURL": "https://github.com/devuzan/MorePowerfulSwift",
+        "state": {
+          "branch": null,
+          "revision": "1e9dfcc80eeda5e69d54133ee6a23a0b45e29be7",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
